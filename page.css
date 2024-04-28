@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+}
+.home{
+    display: flex;
+    justify-content: right;
+    margin-right: 80px;
+}
+.uncon{
+    font-size: 50px;
+    text-align: center;
+    padding: 70px;
+}
+.con{
+    margin: -40px;
+}
+.site{
+    color: grey;
+    text-align: center;
+    margin-top: -10px;
+}
+.blue{
+    border: 1px none;
+    background-color: aqua;
+    width: 300px;
+    height: 10px;
+    box-shadow: -3px -2px 25px 8px rgba(0,0,0,0.75);
+}
+.white{
+    border: 1px none;
+    background-color: white;
+    width: 100px;
+    height: 10px;
+    box-shadow: -3px -2px 25px 8px rgba(0,0,0,0.75);
+}
+.tu{
+    display: flex;
+    justify-content: center;
+}
+.per{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 36.4%;
+    bottom: 25px;
+}
+.noti{
+    color: black;
+    background-color: aqua;
+    border: none;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 46.5%;
+    margin-top: -20px;
+    box-shadow: -3px -2px 25px 8px rgba(0,0,0,0.75);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.logo img{
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.bot{
+    color: grey;
+    position: relative;
+    bottom: -170px;
+    text-align: center;
+}
